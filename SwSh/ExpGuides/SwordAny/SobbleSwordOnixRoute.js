@@ -102,8 +102,8 @@ let route = [
 
     // Nessa's Gym
     { type: "kill", pokemon: "Tympole", level: 21, nature: "Timid", moves: "Echoed Voice/Growl/Mud Shot/Round", Ivs: "5/5/5/5/5/5" },
-    { type: "kill", pokemon: "Krabby", level: 20, nature: "Jolly", moves: "Whirlpool/Harden/(No Move)/(No Move)", Ivs: "5/5/5/5/5/5" },
-    { type: "kill", pokemon: "Corphish", level: 20, nature: "Timid", moves: "Whirlpool/Leer/Bubble Beam/(No Move)", Ivs: "5/5/5/5/5/5" },
+    { type: "kill", pokemon: "Krabby", level: 20, nature: "Jolly", ability: "Hyper Cutter", moves: "Whirlpool/Harden/(No Move)/(No Move)", Ivs: "5/5/5/5/5/5" },
+    { type: "kill", pokemon: "Corphish", level: 20, nature: "Timid", ability: "Hyper Cutter", moves: "Whirlpool/Leer/Bubble Beam/(No Move)", Ivs: "5/5/5/5/5/5" },
     { type: "kill", pokemon: "Goldeen", level: 22, nature: "Timid", ability: "Swift Swim", moves: "Water Pulse/Whirlpool/Horn Attack/Agility", Ivs: "15/15/15/15/15/15" },
     { type: "kill", pokemon: "Arrokuda", level: 23, nature: "Calm", ability: "Swift Swim", moves: "Aqua Jet/Bite/Whirlpool/Fury Attack", Ivs: "15/15/15/15/15/15" },
     { type: "kill", pokemon: "Drednaw", level: 24, nature: "Modest", ability: "Swift Swim", moves: "Razor Shell/Water Gun/Bite/Headbutt", Ivs: "20/20/20/20/20/20", Evs: "820/0/0/0/0/0" },
@@ -115,7 +115,7 @@ let route = [
     { type: "kill", pokemon: "Ponyta-Galar", level: 22, nature: "Adamant", ability: "Pastel Veil", moves: "Confusion/Fairy Wind/(No Move)/(No Move)", Ivs: "15/15/15/15/15/15" },
 
     // Galar Mine 2
-    { type: "kill", pokemon: "Carkol", level: 21, nature: "Serious", moves: "Rapid Spin/Smack Down/Ancient Power/Flame Charge", Ivs: "0/0/0/0/0/0" },
+    { type: "kill", pokemon: "Carkol", level: 21, nature: "Serious", ability: "Steam Engine", moves: "Rapid Spin/Smack Down/Ancient Power/Flame Charge", Ivs: "0/0/0/0/0/0" },
     { type: "kill", pokemon: "Thievul", level: 21, nature: "Docile", moves: "Snarl/Nasty Plot/Tail Whip/Quick Attack", Ivs: "0/0/0/0/0/0" },
     { type: "kill", pokemon: "Liepard", level: 22, nature: "Hasty", moves: "Torment/Fury Swipes/Sand Attack/Growl", Ivs: "0/0/0/0/0/0" },
     { type: "kill", pokemon: "Linoone-Galar", level: 22, nature: "Jolly", moves: "Night Slash/Baby-Doll Eyes/Sand Attack/Lick", Ivs: "0/0/0/0/0/0" },
@@ -139,12 +139,12 @@ let route = [
     { type: "change-moves", moves: "Water Pledge/Swift/Rain Dance/Water Pulse" },
 
     // Route 6 Required Fights
-    { type: "kill", pokemon: "Stunky", level: 29, moves: "Bite/Feint/Poison Gas/(No Move)", Ivs: "0/0/0/0/0/0" },
+    { type: "kill", pokemon: "Stunky", level: 29, ability: "Aftermath", moves: "Bite/Feint/Poison Gas/(No Move)", Ivs: "0/0/0/0/0/0" },
     { type: "kill", pokemon: "Linoone-Galar", level: 30, nature: "Serious", moves: "Hone Claws/Take Down/Night Slash/Baby-Doll Eyes", Ivs: "0/0/0/0/0/0" },
     { type: "kill", pokemon: "Liepard", level: 30, nature: "Jolly", moves: "Fake Out/Fury Swipes/Assurance/Sand Attack", Ivs: "0/0/0/0/0/0" },
     { type: "kill", pokemon: "Clefairy", level: 29, nature: "Serious", moves: "Metronome/(No Move)/(No Move)/(No Move)", Ivs: "0/0/0/0/0/0" },
     { type: "kill", pokemon: "Clefable", level: 30, nature: "Serious", moves: "Metronome/(No Move)/(No Move)/(No Move)", Ivs: "0/0/0/0/0/0" },
-    { type: "kill", pokemon: "Koffing", level: 29, nature: "Modest", moves: "Self-Destruct/Haze/Smokescreen/Clear Smog", Ivs: "0/0/0/0/0/0" },
+    { type: "kill", pokemon: "Koffing", level: 29, nature: "Modest", ability: "Neutralizing Gas", moves: "Self-Destruct/Haze/Smokescreen/Clear Smog", Ivs: "0/0/0/0/0/0" },
     { type: "kill", pokemon: "Sudowoodo", level: 31, nature: "Serious", ability: "Sturdy", moves: "Slam/Rock Slide/Sucker Punch/(No Move)", Ivs: "0/0/0/0/0/0" },
 
     { type: "rare-candy" },
@@ -180,7 +180,7 @@ let route = [
     { type: "kill", pokemon: "Swirlix", level: 34, nature: "Bashful", moves: "Draining Kiss/Energy Ball/Cotton Spore/Fake Tears", Ivs: "5/5/5/5/5/5" },
     { type: "kill", pokemon: "Aromatisse", level: 34, nature: "Docile", moves: "Draining Kiss/Psychic/Echoed Voice/Sweet Kiss", Ivs: "5/5/5/5/5/5" },
     { type: "kill", pokemon: "Morgrem", level: 35, nature: "Adamant", ability: "Prankster", moves: "Fake Out/False Surrender/Flatter/Draining Kiss", Ivs: "5/5/5/5/5/5" },
-    { type: "kill", pokemon: "Gardevoir", level: 35, nature: "Timid", moves: "Dazzling Gleam/Mystical Fire/Charm/Reflect", Ivs: "5/5/5/5/5/5" },
+    { type: "kill", pokemon: "Gardevoir", level: 35, nature: "Timid", ability: "Synchronize", moves: "Dazzling Gleam/Mystical Fire/Charm/Reflect", Ivs: "5/5/5/5/5/5" },
     { type: "kill", pokemon: "Weezing-Galar", level: 36, nature: "Quirky", ability: "Levitate", moves: "Sludge/Fairy Wind/Tackle/(No Move)", Ivs: "15/15/15/15/15/15" },
     { type: "kill", pokemon: "Mawile", level: 36, nature: "Adamant", ability: "Intimidate", moves: "Draining Kiss/Crunch/Iron Defense/Astonish", Ivs: "15/15/15/15/15/15" },
     { type: "kill", pokemon: "Togekiss", level: 37, nature: "Timid", ability: "Hustle", moves: "Air Slash/Draining Kiss/Ancient Power/(No Move)", Ivs: "15/15/15/15/15/15" },
@@ -227,7 +227,7 @@ let route = [
     { type: "kill", pokemon: "Linoone-Galar", level: 42, nature: "Jolly", moves: "Counter/Take Down/Night Slash/Fury Swipes", Ivs: "0/0/0/0/0/0" },
     { type: "kill", pokemon: "Thievul", level: 42, nature: "Jolly", moves: "Foul Play/Sucker Punch/Tail Slap/Night Slash", Ivs: "0/0/0/0/0/0" },
     { type: "kill", pokemon: "Scrafty", level: 42, nature: "Adamant", moves: "Swagger/Brick Break/Scary Face/Payback", Ivs: "0/0/0/0/0/0" },
-    { type: "kill", pokemon: "Weavile", level: 43, nature: "Careful", moves: "Hone Claws/Slash/Ice Shard/Metal Claw", Ivs: "0/0/0/0/0/0" },
+    { type: "kill", pokemon: "Weavile", level: 43, nature: "Careful", ability: "Pressure", moves: "Hone Claws/Slash/Ice Shard/Metal Claw", Ivs: "0/0/0/0/0/0" },
     { type: "kill", pokemon: "Drapion", level: 43, nature: "Careful", moves: "Poison Fang/Venoshock/Toxic Spikes/Bug Bite", Ivs: "0/0/0/0/0/0" },
     { type: "kill", pokemon: "Liepard", level: 43, nature: "Jolly", moves: "Hone Claws/Slash/Taunt/Assurance", Ivs: "0/0/0/0/0/0" },
     { type: "kill", pokemon: "Scrafty", level: 44, nature: "Adamant", ability: "Intimidate", moves: "Fake Out/Sand Attack/Brick Break/Payback", Ivs: "15/15/15/15/15/15" },
@@ -238,22 +238,22 @@ let route = [
     { type: "change-moves", moves: "Water Pledge/Icy Wind/Rain Dance/Water Pulse" },
 
     // Raihan's Gym
-    { type: "kill", pokemon: "Pelipper", level: 45, nature: "Calm", moves: "Tailwind/Water Pulse/Supersonic/Air Slash", Ivs: "5/5/5/5/5/5" },
-    { type: "kill", pokemon: "Sliggoo", level: 45, nature: "Bold", moves: "Water Pulse/Dragon Pulse/Acid Spray/Dragon Breath", Ivs: "5/5/5/5/5/5" },
-    { type: "kill", pokemon: "Ninetales", level: 45, nature: "Bold", moves: "Will-O-Wisp/Flamethrower/Disable/Extrasensory", Ivs: "5/5/5/5/5/5" },
-    { type: "kill", pokemon: "Turtonator", level: 45, nature: "Sassy", moves: "Flamethrower/Dragon Pulse/Shell Trap/Rock Tomb", Ivs: "5/5/5/5/5/5" },
-    { type: "kill", pokemon: "Hakamo-o", level: 45, nature: "Careful", moves: "Dragon Claw/Shadow Claw/Brick Break/Noble Roar", Ivs: "5/5/5/5/5/5" },
-    { type: "kill", pokemon: "Abomasnow", level: 45, nature: "Quiet", moves: "Icy Wind/Razor Leaf/Ingrain/Aurora Veil", Ivs: "5/5/5/5/5/5" },
+    { type: "kill", pokemon: "Pelipper", level: 45, nature: "Calm", ability: "Drizzle", moves: "Tailwind/Water Pulse/Supersonic/Air Slash", Ivs: "5/5/5/5/5/5" },
+    { type: "kill", pokemon: "Sliggoo", level: 45, nature: "Bold", ability: "Hydration", moves: "Water Pulse/Dragon Pulse/Acid Spray/Dragon Breath", Ivs: "5/5/5/5/5/5" },
+    { type: "kill", pokemon: "Ninetales", level: 45, nature: "Bold", ability: "Drought", moves: "Will-O-Wisp/Flamethrower/Disable/Extrasensory", Ivs: "5/5/5/5/5/5" },
+    { type: "kill", pokemon: "Turtonator", level: 45, nature: "Sassy", ability: "Shell Armor", moves: "Flamethrower/Dragon Pulse/Shell Trap/Rock Tomb", Ivs: "5/5/5/5/5/5" },
+    { type: "kill", pokemon: "Hakamo-o", level: 45, nature: "Careful", ability: "Overcoat", moves: "Dragon Claw/Shadow Claw/Brick Break/Noble Roar", Ivs: "5/5/5/5/5/5" },
+    { type: "kill", pokemon: "Abomasnow", level: 45, nature: "Quiet", ability: "Snow Warning", moves: "Icy Wind/Razor Leaf/Ingrain/Aurora Veil", Ivs: "5/5/5/5/5/5" },
     { type: "kill", pokemon: "Gigalith", level: 46, nature: "Careful", ability: "Sand Stream", moves: "Stealth Rock/Sand Tomb/Rock Blast/Body Press", Ivs: "15/15/15/15/15/15" },
     { type: "kill", pokemon: "Flygon", level: 47, nature: "Jolly", ability: "Levitate", moves: "Thunder Punch/Breaking Swipe/Crunch/Steel Wing", Ivs: "15/15/15/15/15/15" },
     { type: "kill", pokemon: "Sandaconda", level: 46, nature: "Calm", ability: "Sand Spit", moves: "Protect/Glare/Fire Fang/Earth Power", Ivs: "15/15/15/15/15/15" },
     { type: "kill", pokemon: "Duraludon", level: 48, nature: "Jolly", ability: "Heavy Metal", moves: "Breaking Swipe/Body Press/Stone Edge/Iron Head", Ivs: "20/20/20/20/20/20", Evs: "828/0/0/0/0/0" },
 
     // Route 10 Trainers
-    { type: "kill", pokemon: "Gardevoir", level: 45, nature: "Modest", moves: "Dazzling Gleam/Draining Kiss/Calm Mind/(No Move)", Ivs: "0/0/0/0/0/0" },
-    { type: "kill", pokemon: "Pelipper", level: 46, nature: "Calm", moves: "Tailwind/Roost/Water Pulse/Air Slash", Ivs: "0/0/0/0/0/0" }, // Postman Harper
+    { type: "kill", pokemon: "Gardevoir", level: 45, nature: "Modest", ability: "Synchronize", moves: "Dazzling Gleam/Draining Kiss/Calm Mind/(No Move)", Ivs: "0/0/0/0/0/0" },
+    { type: "kill", pokemon: "Pelipper", level: 46, nature: "Calm" ,ability: "Drizzle", moves: "Tailwind/Roost/Water Pulse/Air Slash", Ivs: "0/0/0/0/0/0" }, // Postman Harper
     { type: "kill", pokemon: "Noctowl", level: 46, nature: "Bold", moves: "Hypnosis/Moonblast/Roost/Air Slash", Ivs: "0/0/0/0/0/0" }, // Postman Harper
-    { type: "kill", pokemon: "Gigalith", level: 46, nature: "Adamant", moves: "Iron Defense/Rock Slide/Rock Blast/Stealth Rock", Ivs: "0/0/0/0/0/0" },
+    { type: "kill", pokemon: "Gigalith", level: 46, nature: "Adamant", ability: "Sand Stream", moves: "Iron Defense/Rock Slide/Rock Blast/Stealth Rock", Ivs: "0/0/0/0/0/0" },
     { type: "kill", pokemon: "Rhydon", level: 46, nature: "Brave", moves: "Take Down/Bulldoze/Horn Drill/Stone Edge", Ivs: "0/0/0/0/0/0" },
     { type: "kill", pokemon: "Darmanitan-Galar", level: 46, nature: "Jolly", ability: "Gorilla Tactics", moves: "Icicle Crash/Headbutt/Taunt/Uproar", Ivs: "0/0/0/0/0/0" },
     { type: "kill", pokemon: "Falinks", level: 46, nature: "Jolly", moves: "No Retreat/First Impression/Close Combat/Headbutt", Ivs: "0/0/0/0/0/0" },
@@ -275,19 +275,19 @@ let route = [
 
     // Macro Cosmo Section
     { type: "kill", pokemon: "Meowth-Galar", level: 47, nature: "Jolly", moves: "Slash/Assurance/Play Rough/(No Move)", Ivs: "0/0/0/0/0/0" },
-    { type: "kill", pokemon: "Durant", level: 47, nature: "Jolly", moves: "Iron Head/Crunch/X-Scissor/(No Move)", Ivs: "0/0/0/0/0/0" },
+    { type: "kill", pokemon: "Durant", level: 47, nature: "Jolly", ability: "Swarm", moves: "Iron Head/Crunch/X-Scissor/(No Move)", Ivs: "0/0/0/0/0/0" },
     { type: "change-moves", moves: "Water Pledge/Icy Wind/Rain Dance/Hydro Cannon" },
-    { type: "kill", pokemon: "Mawile", level: 47, nature: "Adamant", moves: "Iron Head/Crunch/(No Move)/(No Move)", Ivs: "0/0/0/0/0/0" },
+    { type: "kill", pokemon: "Mawile", level: 47, nature: "Adamant", ability: "Hyper Cutter", moves: "Iron Head/Crunch/(No Move)/(No Move)", Ivs: "0/0/0/0/0/0" },
     { type: "kill", pokemon: "Excadrill", level: 47, nature: "Adamant", moves: "Metal Claw/Crush Claw/Rock Slide/(No Move)", Ivs: "0/0/0/0/0/0" },
     { type: "kill", pokemon: "Ferroseed", level: 47, nature: "Calm", ability: "Iron Barbs", moves: "Iron Head/Flash Cannon/Pin Missile/(No Move)", Ivs: "0/0/0/0/0/0" },
-    { type: "kill", pokemon: "Steelix", level: 47, nature: "Calm", moves: "Slam/Dragon Breath/Rock Slide/Crunch", Ivs: "0/0/0/0/0/0" },
-    { type: "kill", pokemon: "Durant", level: 48, nature: "Naughty", moves: "Iron Head/Metal Sound/Agility/Crunch", Ivs: "0/0/0/0/0/0" },
+    { type: "kill", pokemon: "Steelix", level: 47, nature: "Calm", ability: "Rock Head", moves: "Slam/Dragon Breath/Rock Slide/Crunch", Ivs: "0/0/0/0/0/0" },
+    { type: "kill", pokemon: "Durant", level: 48, nature: "Naughty", ability: "Hustle", moves: "Iron Head/Metal Sound/Agility/Crunch", Ivs: "0/0/0/0/0/0" },
     { type: "kill", pokemon: "Cufant", level: 48, nature: "Calm", moves: "Iron Head/Play Rough/Strength/Dig", Ivs: "0/0/0/0/0/0" },
     { type: "kill", pokemon: "Bronzong", level: 48, nature: "Bold", ability: "Levitate", moves: "Extrasensory/Safeguard/Iron Defense/Metal Sound", Ivs: "0/0/0/0/0/0" },
     { type: "kill", pokemon: "Mawile", level: 48, nature: "Adamant", ability: "Intimidate", moves: "Iron Head/Fake Tears/Crunch/Astonish", Ivs: "0/0/0/0/0/0" },
     { type: "kill", pokemon: "Klang", level: 48, nature: "Jolly", moves: "Shift Gear/Lock-On/Gear Grind/Screech", Ivs: "0/0/0/0/0/0" },
     { type: "kill", pokemon: "Stunfisk-Galar", level: 49, nature: "Bold", moves: "Snap Trap/Muddy Water/Metal Sound/Bounce", Ivs: "0/0/0/0/0/0" },
-    { type: "kill", pokemon: "Steelix", level: 49, nature: "Calm", moves: "Slam/Screech/Rock Slide/Curse", Ivs: "0/0/0/0/0/0" },
+    { type: "kill", pokemon: "Steelix", level: 49, nature: "Calm", ability: "Rock Head", moves: "Slam/Screech/Rock Slide/Curse", Ivs: "0/0/0/0/0/0" },
 
     // Oleana
     { type: "kill", pokemon: "Froslass", level: 50, nature: "Timid", ability: "Snow Cloak", moves: "Hex/Icy Wind/Will-O-Wisp/Double Team", Ivs: "15/15/15/15/15/15" },

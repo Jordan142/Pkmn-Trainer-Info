@@ -251,8 +251,8 @@ Pokemon: 1
 46 - Gym Trainer Heather
 ======
 Pokemon: 2
-{ type: "kill", pokemon: "Krabby", level: 20, nature: "Jolly", moves: "Whirlpool/Harden/(No Move)/(No Move)", Ivs: "5/5/5/5/5/5" },
-{ type: "kill", pokemon: "Corphish", level: 20, nature: "Timid", moves: "Whirlpool/Leer/Bubble Beam/(No Move)", Ivs: "5/5/5/5/5/5" },
+{ type: "kill", pokemon: "Krabby", level: 20, nature: "Jolly", ability: "Hyper Cutter", moves: "Whirlpool/Harden/(No Move)/(No Move)", Ivs: "5/5/5/5/5/5" },
+{ type: "kill", pokemon: "Corphish", level: 20, nature: "Timid", ability: "Hyper Cutter", moves: "Whirlpool/Leer/Bubble Beam/(No Move)", Ivs: "5/5/5/5/5/5" },
 ======
 47 - Gym Trainer Lynn
 ======
@@ -269,7 +269,7 @@ Pokemon: 2
 49 - Worker Francis
 ======
 Pokemon: 1
-{ type: "kill", pokemon: "Carkol", level: 21, nature: "Serious", moves: "Rapid Spin/Smack Down/Ancient Power/Flame Charge", Ivs: "0/0/0/0/0/0" },
+{ type: "kill", pokemon: "Carkol", level: 21, nature: "Serious", ability: "Steam Engine", moves: "Rapid Spin/Smack Down/Ancient Power/Flame Charge", Ivs: "0/0/0/0/0/0" },
 ======
 50 - Rail Staff Vincent
 ======
@@ -311,7 +311,7 @@ Pokemon: 1
 57 - Artist Duncan
 ======
 Pokemon: 2
-{ type: "kill", pokemon: "Koffing", level: 29, nature: "Modest", moves: "Self-Destruct/Haze/Smokescreen/Clear Smog", Ivs: "0/0/0/0/0/0" },
+{ type: "kill", pokemon: "Koffing", level: 29, nature: "Modest", ability: "Neutralizing Gas", moves: "Self-Destruct/Haze/Smokescreen/Clear Smog", Ivs: "0/0/0/0/0/0" },
 { type: "kill", pokemon: "Sudowoodo", level: 31, nature: "Serious", ability: "Sturdy", moves: "Slam/Rock Slide/Sucker Punch/(No Move)", Ivs: "0/0/0/0/0/0" },
 ======
 59 - Cook Derek
@@ -358,13 +358,13 @@ Pokemon: 3
 66 - Gym Trainer Roy
 ======
 Pokemon: 2
-{ type: "kill", pokemon: "Haunter", level: 33, nature: "Serious", moves: "Night Shade/Payback/Mean Look/(No Move)", Ivs: "5/5/5/5/5/5" },
-{ type: "kill", pokemon: "Drifblim", level: 33, nature: "Serious", moves: "Phantom Force/Shadow Ball/Stockpile/(No Move)", Ivs: "5/5/5/5/5/5" },
+{ type: "kill", pokemon: "Haunter", level: 33, nature: "Serious", ability: "Levitate", moves: "Night Shade/Payback/Mean Look/(No Move)", Ivs: "5/5/5/5/5/5" },
+{ type: "kill", pokemon: "Drifblim", level: 33, nature: "Serious", ability: "Unburden", moves: "Phantom Force/Shadow Ball/Stockpile/(No Move)", Ivs: "5/5/5/5/5/5" },
 ======
 67 - Gym Trainer Lynne
 ======
 Pokemon: 1
-{ type: "kill", pokemon: "Corsola-Galar", level: 32, nature: "Bold", moves: "Hex/Ancient Power/Disable/(No Move)", Ivs: "5/5/5/5/5/5" },
+{ type: "kill", pokemon: "Corsola-Galar", level: 32, nature: "Bold", ability: "Weak Armor", moves: "Hex/Ancient Power/Disable/(No Move)", Ivs: "5/5/5/5/5/5" },
 ======
 68 - Madame Judy
 ======
@@ -490,7 +490,7 @@ Pokemon: 2
 92 - Doctor Graham
 ======
 Pokemon: 1
-{ type: "kill", pokemon: "Gardevoir", level: 45, nature: "Modest", moves: "Dazzling Gleam/Draining Kiss/Calm Mind/(No Move)", Ivs: "0/0/0/0/0/0" },
+{ type: "kill", pokemon: "Gardevoir", level: 45, nature: "Modest", ability: "Synchronize", moves: "Dazzling Gleam/Draining Kiss/Calm Mind/(No Move)", Ivs: "0/0/0/0/0/0" },
 ======
 93 - Hiker Douglas
 ======
@@ -501,14 +501,14 @@ Pokemon: 2
 94 - Hiker Donald
 ======
 Pokemon: 2
-{ type: "kill", pokemon: "Gigalith", level: 46, nature: "Adamant", moves: "Iron Defense/Rock Slide/Rock Blast/Stealth Rock", Ivs: "0/0/0/0/0/0" },
+{ type: "kill", pokemon: "Gigalith", level: 46, nature: "Adamant", ability: "Sand Stream", moves: "Iron Defense/Rock Slide/Rock Blast/Stealth Rock", Ivs: "0/0/0/0/0/0" },
 { type: "kill", pokemon: "Rhydon", level: 46, nature: "Brave", moves: "Take Down/Bulldoze/Horn Drill/Stone Edge", Ivs: "0/0/0/0/0/0" },
 ======
 96 - Cabbie Geoffrey
 ======
 Pokemon: 2
-{ type: "kill", pokemon: "Corviknight", level: 45, nature: "Bold", moves: "Swagger/Drill Peck/Steel Wing/(No Move)", Ivs: "0/0/0/0/0/0" },
-{ type: "kill", pokemon: "Flygon", level: 46, moves: "Earthquake/Dragon Tail/Earth Power/(No Move)", Ivs: "0/0/0/0/0/0" },
+{ type: "kill", pokemon: "Corviknight", level: 45, nature: "Bold", ability: "Unnerve", moves: "Swagger/Drill Peck/Steel Wing/(No Move)", Ivs: "0/0/0/0/0/0" },
+{ type: "kill", pokemon: "Flygon", level: 46, ability: "Levitate", moves: "Earthquake/Dragon Tail/Earth Power/(No Move)", Ivs: "0/0/0/0/0/0" },
 ======
 97 - Office Worker Ronald
 ======
@@ -553,7 +553,7 @@ Pokemon: 1
 104 - Team Yell Grunt
 ======
 Pokemon: 1
-{ type: "kill", pokemon: "Weavile", level: 43, nature: "Careful", moves: "Hone Claws/Slash/Ice Shard/Metal Claw", Ivs: "0/0/0/0/0/0" },
+{ type: "kill", pokemon: "Weavile", level: 43, nature: "Careful", ability: "Pressure", moves: "Hone Claws/Slash/Ice Shard/Metal Claw", Ivs: "0/0/0/0/0/0" },
 ======
 105 - Team Yell Grunt
 ======
@@ -597,7 +597,7 @@ Pokemon: 2
 ======
 Pokemon: 2
 { type: "kill", pokemon: "Morgrem", level: 35, nature: "Adamant", ability: "Prankster", moves: "Fake Out/False Surrender/Flatter/Draining Kiss", Ivs: "5/5/5/5/5/5" },
-{ type: "kill", pokemon: "Gardevoir", level: 35, nature: "Timid", moves: "Dazzling Gleam/Mystical Fire/Charm/Reflect", Ivs: "5/5/5/5/5/5" },
+{ type: "kill", pokemon: "Gardevoir", level: 35, nature: "Timid", ability: "Synchronize", moves: "Dazzling Gleam/Mystical Fire/Charm/Reflect", Ivs: "5/5/5/5/5/5" },
 ======
 121 - Pokémon Trainer Hop 4 - Picked Grookey
 ======
@@ -747,7 +747,7 @@ Pokemon: 4
 139 - Macro Cosmos's Elijah
 ======
 Pokemon: 1
-{ type: "kill", pokemon: "Durant", level: 48, nature: "Naughty", moves: "Iron Head/Metal Sound/Agility/Crunch", Ivs: "0/0/0/0/0/0" },
+{ type: "kill", pokemon: "Durant", level: 48, nature: "Naughty", ability: "Hustle", moves: "Iron Head/Metal Sound/Agility/Crunch", Ivs: "0/0/0/0/0/0" },
 ======
 140 - Macro Cosmos's Mateo
 ======
@@ -762,7 +762,7 @@ Pokemon: 1
 142 - Macro Cosmos's Adalyn
 ======
 Pokemon: 1
-{ type: "kill", pokemon: "Steelix", level: 49, nature: "Calm", moves: "Slam/Screech/Rock Slide/Curse", Ivs: "0/0/0/0/0/0" },
+{ type: "kill", pokemon: "Steelix", level: 49, nature: "Calm", ability: "Rock Head", moves: "Slam/Screech/Rock Slide/Curse", Ivs: "0/0/0/0/0/0" },
 ======
 143 - Macro Cosmos's Oleana
 ======
@@ -803,20 +803,20 @@ Pokemon: 6
 150 - Gym Trainer Sebastian
 ======
 Pokemon: 2
-{ type: "kill", pokemon: "Pelipper", level: 45, nature: "Calm", moves: "Tailwind/Water Pulse/Supersonic/Air Slash", Ivs: "5/5/5/5/5/5" },
-{ type: "kill", pokemon: "Sliggoo", level: 45, nature: "Bold", moves: "Water Pulse/Dragon Pulse/Acid Spray/Dragon Breath", Ivs: "5/5/5/5/5/5" },
+{ type: "kill", pokemon: "Pelipper", level: 45, nature: "Calm", ability: "Drizzle", moves: "Tailwind/Water Pulse/Supersonic/Air Slash", Ivs: "5/5/5/5/5/5" },
+{ type: "kill", pokemon: "Sliggoo", level: 45, nature: "Bold", ability: "Hydration", moves: "Water Pulse/Dragon Pulse/Acid Spray/Dragon Breath", Ivs: "5/5/5/5/5/5" },
 ======
 151 - Gym Trainer Camilla
 ======
 Pokemon: 2
-{ type: "kill", pokemon: "Ninetales", level: 45, nature: "Bold", moves: "Will-O-Wisp/Flamethrower/Disable/Extrasensory", Ivs: "5/5/5/5/5/5" },
-{ type: "kill", pokemon: "Turtonator", level: 45, nature: "Sassy", moves: "Flamethrower/Dragon Pulse/Shell Trap/Rock Tomb", Ivs: "5/5/5/5/5/5" },
+{ type: "kill", pokemon: "Ninetales", level: 45, nature: "Bold", ability: "Drought", moves: "Will-O-Wisp/Flamethrower/Disable/Extrasensory", Ivs: "5/5/5/5/5/5" },
+{ type: "kill", pokemon: "Turtonator", level: 45, nature: "Sassy", ability: "Shell Armor", moves: "Flamethrower/Dragon Pulse/Shell Trap/Rock Tomb", Ivs: "5/5/5/5/5/5" },
 ======
 152 - Gym Trainer Aria
 ======
 Pokemon: 2
-{ type: "kill", pokemon: "Abomasnow", level: 45, nature: "Quiet", moves: "Icy Wind/Razor Leaf/Ingrain/Aurora Veil", Ivs: "5/5/5/5/5/5" },
-{ type: "kill", pokemon: "Hakamo-o", level: 45, nature: "Careful", moves: "Dragon Claw/Shadow Claw/Brick Break/Noble Roar", Ivs: "5/5/5/5/5/5" },
+{ type: "kill", pokemon: "Abomasnow", level: 45, nature: "Quiet", ability: "Snow Warning", moves: "Icy Wind/Razor Leaf/Ingrain/Aurora Veil", Ivs: "5/5/5/5/5/5" },
+{ type: "kill", pokemon: "Hakamo-o", level: 45, nature: "Careful", ability: "Overcoat", moves: "Dragon Claw/Shadow Claw/Brick Break/Noble Roar", Ivs: "5/5/5/5/5/5" },
 ======
 153 - Pokémon Trainer Hop Eternatus Fight - Picked Grookey
 ======
@@ -991,7 +991,7 @@ Pokemon: 1
 182 - Postman Harper
 ======
 Pokemon: 2
-{ type: "kill", pokemon: "Pelipper", level: 46, nature: "Calm", moves: "Tailwind/Roost/Water Pulse/Air Slash", Ivs: "0/0/0/0/0/0" },
+{ type: "kill", pokemon: "Pelipper", level: 46, nature: "Calm" ,ability: "Drizzle", moves: "Tailwind/Roost/Water Pulse/Air Slash", Ivs: "0/0/0/0/0/0" },
 { type: "kill", pokemon: "Noctowl", level: 46, nature: "Bold", moves: "Hypnosis/Moonblast/Roost/Air Slash", Ivs: "0/0/0/0/0/0" },
 ======
 183 - Gentleman Caden
@@ -1155,7 +1155,7 @@ Pokemon: 1
 207 - Team Yell Grunt
 ======
 Pokemon: 2
-{ type: "kill", pokemon: "Stunky", level: 29, moves: "Bite/Feint/Poison Gas/(No Move)", Ivs: "0/0/0/0/0/0" },
+{ type: "kill", pokemon: "Stunky", level: 29, ability: "Aftermath", moves: "Bite/Feint/Poison Gas/(No Move)", Ivs: "0/0/0/0/0/0" },
 { type: "kill", pokemon: "Linoone-Galar", level: 30, nature: "Serious", moves: "Hone Claws/Take Down/Night Slash/Baby-Doll Eyes", Ivs: "0/0/0/0/0/0" },
 ======
 208 - Team Yell Grunt
@@ -1775,19 +1775,19 @@ Pokemon: 5
 ======
 Pokemon: 2
 { type: "kill", pokemon: "Meowth-Galar", level: 47, nature: "Jolly", moves: "Slash/Assurance/Play Rough/(No Move)", Ivs: "0/0/0/0/0/0" },
-{ type: "kill", pokemon: "Durant", level: 47, nature: "Jolly", moves: "Iron Head/Crunch/X-Scissor/(No Move)", Ivs: "0/0/0/0/0/0" },
+{ type: "kill", pokemon: "Durant", level: 47, nature: "Jolly", ability: "Swarm", moves: "Iron Head/Crunch/X-Scissor/(No Move)", Ivs: "0/0/0/0/0/0" },
 ======
 286 - Macro Cosmos's Eric
 ======
 Pokemon: 2
-{ type: "kill", pokemon: "Mawile", level: 47, nature: "Adamant", moves: "Iron Head/Crunch/(No Move)/(No Move)", Ivs: "0/0/0/0/0/0" },
+{ type: "kill", pokemon: "Mawile", level: 47, nature: "Adamant", ability: "Hyper Cutter", moves: "Iron Head/Crunch/(No Move)/(No Move)", Ivs: "0/0/0/0/0/0" },
 { type: "kill", pokemon: "Excadrill", level: 47, nature: "Adamant", moves: "Metal Claw/Crush Claw/Rock Slide/(No Move)", Ivs: "0/0/0/0/0/0" },
 ======
 287 - Macro Cosmos's Eric
 ======
 Pokemon: 2
 { type: "kill", pokemon: "Ferroseed", level: 47, nature: "Calm", ability: "Iron Barbs", moves: "Iron Head/Flash Cannon/Pin Missile/(No Move)", Ivs: "0/0/0/0/0/0" },
-{ type: "kill", pokemon: "Steelix", level: 47, nature: "Calm", moves: "Slam/Dragon Breath/Rock Slide/Crunch", Ivs: "0/0/0/0/0/0" },
+{ type: "kill", pokemon: "Steelix", level: 47, nature: "Calm", ability: "Rock Head", moves: "Slam/Dragon Breath/Rock Slide/Crunch", Ivs: "0/0/0/0/0/0" },
 ======
 288 - Gym Leader Milo Raid Shield
 ======
