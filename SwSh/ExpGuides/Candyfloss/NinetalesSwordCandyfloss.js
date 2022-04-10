@@ -43,6 +43,8 @@ i.e. copy the Starly (Lv. 5) @(None) (Ability: Keen Eye) (Nature: Jolly) (Moves:
 let route = [
     ...initialRoutes[selectedRoute],
     
+    { type: "exp-candy", experience: 0 },
+
     // Team Yell Hotel
     { type: "kill", pokemon: "Zigzagoon-Galar", level: 9, nature: "Brave", moves: "Tackle/Lick/(No Move)/(No Move)", Ivs: "0/0/0/0/0/0" },
     { type: "kill", pokemon: "Nickit", level: 9, nature: "Serious", moves: "Quick Attack/Tail Whip/(No Move)/(No Move)", Ivs: "0/0/0/0/0/0" },

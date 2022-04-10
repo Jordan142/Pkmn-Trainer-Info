@@ -40,6 +40,8 @@ i.e. copy the Starly (Lv. 5) @(None) (Ability: Keen Eye) (Nature: Jolly) (Moves:
 let route = [
     ...initialRoutes[selectedRoute],
     
+    { type: "exp-candy", experience: 0 },
+
     // Nessa's Gym
     { type: "kill", pokemon: "Tympole", level: 21, nature: "Timid", moves: "Echoed Voice/Growl/Mud Shot/Round", Ivs: "5/5/5/5/5/5" },
     { type: "kill", pokemon: "Krabby", level: 20, nature: "Jolly", ability: "Hyper Cutter", moves: "Whirlpool/Harden/(No Move)/(No Move)", Ivs: "5/5/5/5/5/5" },

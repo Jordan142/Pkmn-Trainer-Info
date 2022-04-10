@@ -40,8 +40,11 @@ i.e. copy the Starly (Lv. 5) @(None) (Ability: Keen Eye) (Nature: Jolly) (Moves:
 let route = [
     ...initialRoutes[selectedRoute],
     
+    { type: "exp-candy", experience: 0 },
+
     // Hop 1
     { type: "kill", pokemon: "Wooloo", level: 3, nature: "Hasty", ability: "Run Away", moves: "Tackle/(No Move)/(No Move)/(No Move)", Ivs: "5/5/5/5/5/5" },
+    { type: "change-moves", moves: "Tackle/Growl/Water Gun/(No Move)" },
     { type: "kill", pokemon: "Scorbunny", level: 5, ability: "Blaze", moves: "Tackle/Growl/(No Move)/(No Move)", Ivs: "15/15/15/25/25/20" },
 
     // Some potential route 1 catches
